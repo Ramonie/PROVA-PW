@@ -4,6 +4,9 @@ import jakarta.annotation.Generated;
 
 @Entity
 public class comida {
+    /**
+     *
+     */
     @jakarta.persistence.Id
     @jakarta.persistence.GeneratedValue(strategy = Generated.IDENTITY)
     private Long id;
